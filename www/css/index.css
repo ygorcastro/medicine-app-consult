@@ -222,17 +222,17 @@ input[type="text"] {
 }
 
 .nome-do-medicamento {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .color-gray-quantidade-estoque {
     color: gray;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .color-gray {
     color: gray;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media (min-width:992px) {
@@ -246,3 +246,4 @@ input[type="text"] {
         flex: 20%;
     }
 }
+

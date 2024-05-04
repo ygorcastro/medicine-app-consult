@@ -33,20 +33,15 @@ var app = new Framework7({
           $.getScript('js/index.js')
 
           var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
+            slidesPerView: 2,
+            spaceBetween: 10,
             pagination: {
               el: ".swiper-pagination",
               clickable: true },
               autoplay: true,
               delay: 3000,
               loop: true,
-              breakpoints: {
-                50:{
-                  slidesPerView: 1,
-                  spaceBetween: 30
-                }
-              }
+              
           });
 
           var swiper2 = new Swiper(".categorias", {
