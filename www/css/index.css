@@ -2,7 +2,7 @@
 
     --branco: #ffff;
     --gelo: #f1f1f1;
-    --vermelho: #ee350f;
+    --azul: #01BAC6;
     --preto: #2a2a2a;
 }
 
@@ -32,7 +32,7 @@ body{
     height: 80px;  
     line-height: 25px; 
 	font-weight:bold;    
-    color: var(--vermelho);
+    color: var(--azul);
 }
 
 .toolbar-inner .link:not(.active){
@@ -60,7 +60,7 @@ body{
 }
 
 .title-logo span{
-    color: var(--vermelho);
+    color: var(--azul);
 }
 
 .btn-cart{
@@ -79,7 +79,7 @@ body{
 
 .btn-cart::before{
     content: attr(data-count);
-    background: var(--vermelho);
+    background: var(--azul);
     width: 17px;
     height: 17px;
     border-radius: 50%;
@@ -99,7 +99,7 @@ body{
 }
 
 a {
-    color:var(--vermelho);
+    color:var(--azul);
     font-weight: 600;
     text-decoration: none;
 }
