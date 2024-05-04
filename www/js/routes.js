@@ -44,6 +44,18 @@ var app = new Framework7({
               
           });
 
+          var swiper3 = new Swiper(".mySwiper3", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true },
+              autoplay: true,
+              delay: 3000,
+              loop: true,
+              
+          });
+
           var swiper2 = new Swiper(".categorias", {
             slidesPerView: 3,
             spaceBetween: 5,
